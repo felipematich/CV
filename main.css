@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #2C3639;
+  align-items: center;
+  margin: 0 auto; }
+
+.navbar {
+  display: flex;
+  margin: 16px 300px 16px 16px;
+  background-color: #2C3639; }
+
+.navbar-brand {
+  color: white;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  padding: 16px; }
+
+h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding: 16px;
+  font-size: 30px; }
+
+.biography {
+  background-color: #3F4E4F; }
+
+.grid {
+  display: grid;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+  grid-template-areas: "photo  aside " "hobbie aside"; }
+
+.image {
+  grid-area: photo;
+  margin: 16px; }
+
+.hobbies {
+  grid-area: hobbie;
+  text-align: center;
+  margin: 16px; }
+
+.aside {
+  grid-area: aside;
+  justify-content: center;
+  margin: 16px 16px 16px 80px; }
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: white; }
+
+.icons {
+  display: flex;
+  flex-direction: row; }
+
+i {
+  color: orange; }
+
+.icons_item {
+  padding: 16px;
+  color: white; }
+
+span {
+  color: black;
+  font-weight: 300px; }
+
+.text1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-bottom: 16px; }
+
+.text2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white; }
+
+.academics {
+  background-color: #A27B5C; }
