@@ -178,3 +178,35 @@ span{
     font-size: 16px;
     color: white;
 }
+
+.contact{
+    background-color: #A27B5C;
+}
+
+.contact_div{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.label{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+.contact_div_input{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    padding: 10px;
+}
+
+input{
+    border: none;
+    border-radius: 4px;
+}
+
+textarea{
+    border: none;
+    border-radius: 4px;
+}
