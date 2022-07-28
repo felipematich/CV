@@ -104,3 +104,77 @@ span{
     background-color: #A27B5C;
 }
 
+.academics_h2{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.academics_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: 16px auto;
+}
+
+.academics_div_text:hover{
+    transform: scale(1.05);
+    transition: linear 0.5s;
+}
+
+.academics_div_text{
+    display: flex;
+    flex-direction: column;
+    margin: 16px auto;
+    justify-content: space-between;
+    padding: 16px;
+    width: 35%;
+    text-align: center;
+    background-color: #2C3639;
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.icon{
+    width: 50px;
+    margin-top: 6px;
+}
+
+.academics_div_text_cambridge{
+    display: flex;
+    flex-direction: column;
+    margin: 16px auto;
+    justify-content: space-between;
+    padding: 16px;
+    width: 35%;
+    text-align: center;
+    background-color: #2C3639;
+}
+
+.skills{
+    background-color: #3F4E4F;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    margin: 16px auto;
+    width: 20%;
+}
+
+.d-block{
+    margin: 0 auto;
+}
+
+.carousel_p{
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+}
