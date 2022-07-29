@@ -132,6 +132,10 @@ span {
   width: 50px;
   margin-top: 6px; }
 
+.academics_div_text_cambridge:hover {
+  transform: scale(1.05);
+  transition: linear 0.5s; }
+
 .academics_div_text_cambridge {
   display: flex;
   flex-direction: column;
