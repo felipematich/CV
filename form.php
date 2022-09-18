@@ -14,7 +14,9 @@ $question = "Sent on: " . date('d/m/Y', time());
 $addressee = 'felipematich@gmail.com';
 $affair = 'This email has been sent from CV page';
 
-mail($addressee, $affair, utf8_decode($question));
+mail($addressee, $affair, utf8_decode($question), $header);
+
+header('Location:form.html');
 
 
 ?>
